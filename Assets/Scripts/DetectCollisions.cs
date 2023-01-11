@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
+    int score = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,10 @@ public class DetectCollisions : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        // destroies target and food item when collide. Adds to score by 1
         Destroy(gameObject);
         Destroy(other.gameObject);
+
+        score = score + 1;
     }
 }
