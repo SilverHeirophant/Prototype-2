@@ -64,6 +64,7 @@
     <Compile Include="Assets/Scripts/Playercontroller.cs" />
     <Compile Include="Assets/Challenge 2/Scripts/MoveForwardX.cs" />
     <Compile Include="Assets/Scripts/MoveForward.cs" />
+    <Compile Include="Assets/GameManager.cs" />
     <Compile Include="Assets/Scripts/DestroyOutOfBounds.cs" />
     <Compile Include="Assets/Scripts/Spawnmanager.cs" />
   </ItemGroup>
